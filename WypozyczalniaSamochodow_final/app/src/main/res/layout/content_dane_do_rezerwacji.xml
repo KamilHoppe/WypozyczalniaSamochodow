@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_dane_do_rezerwacji"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.kamil.wypozyczalniasamochodow.RezerwacjaAuta.DaneDoRezerwacji"
+    tools:showIn="@layout/dane_do_rezerwacji">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+            <TextView
+                android:textSize="20dp"
+                android:text="@string/textView_DaneOsobowe"
+                android:textColor="@color/colorPrimary"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/editTextImie"
+                android:hint="@string/editText_WpiszImie"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/editTextNazwisko"
+                android:hint="@string/editText_WpiszNazwisko"
+
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/editTextUlica"
+                android:hint="@string/editText_WpiszUlica"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/editTextNrDomu"
+                android:hint="@string/editText_WpiszNrDomu"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/editTextKodPocztowy"
+                android:hint="@string/editText_WpiszKodPocztowy"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/editTextMiejscowosc"
+                android:hint="@string/editText_WpiszMiejscowosc"
+                />
+            <TextView
+                android:text="@string/textView_UstalDate"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/editTextDataStart"
+                android:focusable="false"
+                android:hint="@string/editText_DataStart"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/editTextDataStop"
+                android:focusable="false"
+                android:hint="@string/editText_DataStop"
+                />
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonRezerwuje"
+                android:text="@string/button_Rezerwuje"
+                android:background="@drawable/button_round2" />
+
+        </TableLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

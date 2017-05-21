@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.kamil.wypozyczalniasamochodow.menu_uzytkownik">
+
+
+    <item android:id="@+id/action_wyloguj"
+        android:title="@string/wyloguj_menu"
+        android:icon="@drawable/logout_icon"
+        app:showAsAction="always" />
+
+
+</menu>

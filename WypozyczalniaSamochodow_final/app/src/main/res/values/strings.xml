@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WypożyczalniaSamochodów</string>
+    <string name="loginEditText">Nazwa</string>
+    <string name="hasloEditText">Hasło</string>
+    <string name="zalogujButton">Logowanie</string>
+    <string name="rejestracjaButton">Rejestracja</string>
+    <string name="emailEditText">E-mail</string>
+    <string name="buttonWyloguj">Wyloguj</string>
+    <string name="title_activity_menu_uzytkownikc">menu_uzytkownikc</string>
+    <string name="edytuj_profil_menu">Edytuj Profil</string>
+    <string name="usun_profil_menu">Usuń Profil</string>
+    <string name="wyloguj_menu">Wyloguj</string>
+    <string name="title_activity_menu_uzytkownikkopia">Menu Główne</string>
+    <string name="spinner_text_rodzaj_konta">Wybierz rodzaj konta: </string>
+    <string name="spinner_text_nazwa_klasy">Wybierz klasę auta: </string>
+    <string name="spinner_text_nazwa_modelu">Wybierz model auta: </string>
+    <string name="spinner_text_nazwa_marki">Wybierz markę auta: </string>
+    <string name="TextView_marka">Marka: </string>
+    <string name="TextView_model">Model: </string>
+    <string name="TextView_rok">Rok: </string>
+    <string name="TextView_pojemnosc">Pojemność: </string>
+    <string name="TextView_moc">Moc: </string>
+    <string name="TextView_opis_modelu">Opis Modelu: </string>
+    <string name="TextView_wyposazenie">Wyposażenie: </string>
+    <string name="TextView_pojemnosc_cm">cm3</string>
+    <string name="TextView_moc_km">km</string>
+    <string name="TextView_cena">Cena: </string>
+    <string name="TextView_cena_zl">zł/doba</string>
+    <string name="button_rezerwacja">Przejdź do rezerwacji </string>
+    <string name="editText_WpiszImie">Tu wpisz imie ..  </string>
+    <string name="editText_WpiszNazwisko">Tu wpisz nazwisko ..  </string>
+    <string name="editText_WpiszUlica">Tu wpisz ulicę ..  </string>
+    <string name="editText_WpiszNrDomu">Tu wpisz numer domu .. </string>
+    <string name="editText_WpiszKodPocztowy">Tu wpisz kod pocztowy ..  </string>
+    <string name="editText_WpiszMiejscowosc">Tu wpisz miejscowość ..  </string>
+    <string name="textView_UstalDate">Wybierz datę: </string>
+    <string name="textView_DaneOsobowe">Dodaj dane osobowe: </string>
+    <string name="button_Rezerwuje">Rezerwuję! </string>
+    <string name="editText_DataStart">Wybierz datę początku .. </string>
+    <string name="editText_DataStop">Wybierz datę końca .. </string>
+    <string name="textView_Imie">Imie: </string>
+    <string name="textView_Nazwisko">Nazwisko: </string>
+    <string name="textView_Ulica">Ulica: </string>
+    <string name="textView_NrDomu">NrDomu: </string>
+    <string name="textView_KodPocztowy">KodPocztowy: </string>
+    <string name="textView_Miejscowosc">Miejscowosc: </string>
+    <string name="textView_Status">Status: </string>
+    <string name="textView_DataStart">Data rezerwacji: </string>
+    <string name="textView_DataStop">Koniec rezerwacji: </string>
+    <string name="button_zatwierdz_rezerwacje">Zatwierdź </string>
+    <string name="title_activity_dane_auta">Informacje o samochodzie</string>
+    <string name="title_activity_dane_do_rezerwacji">Uzupełnij dane</string>
+    <string name="lista_pracownika_textView_opis">Lista rezerwacji samochodów</string>
+    <string name="lista_pracownika_textView_kliknij_po_wiecej">Kliknij w odpowiednie zamówienie, aby zmienić status rezerwacji ...</string>
+    <string name="title_activity_main2">.</string>
+
+    <string-array name="rodzaj_konta_spinner">
+        <item>Klient</item>
+        <item>Pracownik</item>
+    </string-array>
+
+
+
+</resources>

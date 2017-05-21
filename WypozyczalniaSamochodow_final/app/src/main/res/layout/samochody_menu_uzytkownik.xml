@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/samochody_menu_uzytkownik"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kamil.wypozyczalniasamochodow.MenuUzytkownika.SamochodyFragment"
+    >
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:textSize="20dp"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    android:spinnerMode="dropdown"
+    android:popupBackground="@color/white"
+    android:layout_marginTop="30dp"
+    android:layout_gravity="center"
+    android:weightSum="1">
+    <LinearLayout
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/spinner_text_nazwa_klasy"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/klasaAutaSpinner"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/spinner_text_nazwa_marki"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/MarkaSpinner"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/spinner_text_nazwa_modelu"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/ModelSpinner"/>
+    </LinearLayout>
+  <ImageView
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:id="@+id/buttonClickMenuUzyt"
+      android:src="@drawable/button_search"
+      android:layout_marginTop="90dp"
+      android:layout_marginLeft="255dp"/>
+
+</LinearLayout>
+
+</FrameLayout>

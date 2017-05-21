@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/background">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/carlogo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:layout_marginTop="220dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="20dp"
+    >
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/spinner_text_rodzaj_konta"
+        android:textSize="15dp"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/czyPracownikSpinner"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:entries="@array/rodzaj_konta_spinner"
+        android:spinnerMode="dropdown"
+        android:popupBackground="@color/white"/>
+
+</LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="270dp"
+        android:hint="@string/loginEditText"
+        android:textColorHint="@color/hintcolor"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/loginRejestracjaEditText"
+        android:background="@drawable/edittext_round"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="390dp"
+        android:hint="@string/emailEditText"
+        android:textColorHint="@color/hintcolor"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittext_round"
+        android:id="@+id/emailRejestracjaEditText" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:textSize="20dp"
+        android:text="@string/rejestracjaButton"
+        android:background="@drawable/button_round"
+        android:layout_marginTop="450dp"
+        android:id="@+id/buttonRejestruj"
+        android:textColor="@color/black"
+        android:onClick="buttonZarejestrujClick" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/hasloEditText"
+        android:textColorHint="@color/hintcolor"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_round"
+        android:id="@+id/hasloRejestracjaEditText"
+     />
+</RelativeLayout>
